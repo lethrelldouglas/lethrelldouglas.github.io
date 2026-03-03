@@ -31,28 +31,18 @@
 <meta property="og:url" content="http://localhost:1313/blogs/emoji-support/">
   <meta property="og:site_name" content="Lethrell&#39;s Profile">
   <meta property="og:title" content="Emoji Support">
-  <meta property="og:description" content="Emoji can be enabled in a Hugo project in a number of ways. :zap:
-Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.
-To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.
-The Emoji cheat sheet is a useful reference for emoji shorthand codes.
-N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.">
+  <meta property="og:description" content="Face Value: When Shopping Malls Secretly Read Our Faces — Ethics, Governance, and Soft Ethics in Practice Introduction Cadillac Fairview’s covert use of facial recognition inside mall directory kiosks is a vivid example of how biometric surveillance, weak consent practices, and opaque vendor relationships can collide with basic privacy expectations. This blog post examines that case through the lens of AI governance, ethical AI frameworks, and soft ethics, and draws practical lessons for data scientists, designers, and policy makers. It argues that technical safeguards alone are insufficient: meaningful consent, transparency, accountability, and purpose limitation must be embedded into both design and organizational practice.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blogs">
-    <meta property="article:published_time" content="2021-04-03T22:53:58+05:30">
-    <meta property="article:modified_time" content="2021-04-03T22:53:58+05:30">
-    <meta property="article:tag" content="Emoji Support">
-    <meta property="article:tag" content="Sample">
-    <meta property="article:tag" content="Example">
+    <meta property="article:tag" content="Governance Lessons">
+    <meta property="article:tag" content="The Cadillac Fairview. What Went Wrong?">
+    <meta property="article:tag" content="Ethical Framing">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Emoji Support">
-  <meta name="twitter:description" content="Emoji can be enabled in a Hugo project in a number of ways. :zap:
-Emoji Support The emojify function can be called directly in templates or Inline Shortcodes.
-To enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.
-The Emoji cheat sheet is a useful reference for emoji shorthand codes.
-N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.">
+  <meta name="twitter:description" content="Face Value: When Shopping Malls Secretly Read Our Faces — Ethics, Governance, and Soft Ethics in Practice Introduction Cadillac Fairview’s covert use of facial recognition inside mall directory kiosks is a vivid example of how biometric surveillance, weak consent practices, and opaque vendor relationships can collide with basic privacy expectations. This blog post examines that case through the lens of AI governance, ethical AI frameworks, and soft ethics, and draws practical lessons for data scientists, designers, and policy makers. It argues that technical safeguards alone are insufficient: meaningful consent, transparency, accountability, and purpose limitation must be embedded into both design and organizational practice.">
 
 
 
@@ -361,7 +351,7 @@ Emoji Support | Lethrell&#39;s Profile
                 Gurusabarish
                 <small>|</small>
               
-              Apr 3, 2021
+              Jan 1, 1
 
               
               <span id="readingTime">
@@ -372,21 +362,88 @@ Emoji Support | Lethrell&#39;s Profile
           </div>
           
           <div class="featured-image">
-            <img class="img-fluid mx-auto d-block" src="/images/post.jpg" alt="Emoji Support">
+            <img class="img-fluid mx-auto d-block" src="/images/Face.jpg" alt="Emoji Support">
           </div>
           
           <article class="page-content  p-2">
-          <p>Emoji can be enabled in a Hugo project in a number of ways. ⚡</p>
-<h2 id="emoji-support">Emoji Support</h2>
-<p>The <a href="https://gohugo.io/functions/emojify/">emojify</a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
-<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
-<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
-<hr>
-<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
-<pre tabindex="0"><code>.emoji {
-  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-</code></pre>
+          <h1 id="face-value-when-shopping-malls-secretly-read-our-faces--ethics-governance-and-soft-ethics-in-practice">Face Value: When Shopping Malls Secretly Read Our Faces — Ethics, Governance, and Soft Ethics in Practice</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Cadillac Fairview’s covert use of facial recognition inside mall directory kiosks is a vivid example of how biometric surveillance, weak consent practices, and opaque vendor relationships can collide with basic privacy expectations. This blog post examines that case through the lens of AI governance, ethical AI frameworks, and soft ethics, and draws practical lessons for data scientists, designers, and policy makers. It argues that technical safeguards alone are insufficient: meaningful consent, transparency, accountability, and purpose limitation must be embedded into both design and organizational practice.</p>
+<p>&ldquo;Cadillac Fairview embedded cameras inside their digital information kiosks at 12 shopping malls across Canada and used facial recognition technology without their customers’ knowledge or consent.&rdquo; - OPC</p>
+<h2 id="what-is-the-importance-of-this-case">What is the importance of this case?</h2>
+<ul>
+<li>Real-world stakes: The deployment collected roughly five million images and generated biometric representations of shoppers, creating long-term identity risks.</li>
+<li>Ethics concepts at play: privacy; consent; biometric data sensitivity; transparency; accountability; data minimization; purpose limitation; vendor governance; soft ethics.</li>
+<li>Core tension: Organizations may claim analytics are “non-identifying” while producing sensitive biometric derivatives that are inherently personal.</li>
+</ul>
+<h2 id="ethical-framing-which-principles-apply">Ethical framing: Which principles apply?</h2>
+<p><b>This section aligns the case with established ethical AI concepts and frameworks.</b></p>
+<ol>
+<li>Privacy and biometric sensitivity
+Biometric data (facial features, gait, iris patterns) is uniquely identifying and effectively permanent. Ethical frameworks treat biometric information as highly sensitive, requiring stronger protections than ordinary personal data.</li>
+<li>Informed and meaningful consent
+Consent must be express, informed, and specific. Small decals or buried privacy policies do not meet the threshold for meaningful consent when biometric capture is involved.</li>
+<li>Transparency and explainability
+Transparency requires clear notice about what is collected, how it is processed, who has access, and retention policies. Explainability extends to how analytics produce inferences (e.g., age, gender) and what uncertainties or biases those inferences carry.</li>
+<li>Accountability and governance
+Organizations must know and control what their vendors do with data. Accountability includes audits, contractual controls, and the ability to demonstrate compliance with privacy laws and ethical commitments.</li>
+<li>Data minimization and purpose limitation
+Collect only what is necessary and retain it only for a justified purpose. Generating and storing biometric representations without a clear, limited purpose violates these principles.</li>
+</ol>
+<h2 id="soft-ethics-why-voluntary-norms-still-matter">Soft ethics: Why voluntary norms still matter</h2>
+<p>Regulation often lags behind technology. Soft ethics—codes of conduct, industry standards, design norms, and public commitments—can fill gaps when laws are silent or ambiguous.</p>
+<ul>
+<li>Codes and pledges: Public commitments to avoid biometric surveillance without consent can shape corporate behavior.</li>
+<li>Design norms: Defaulting to privacy-preserving designs (e.g., on-device aggregation, ephemeral analytics) reduces risk.</li>
+<li>Stakeholder engagement: Consulting affected communities and privacy experts before deployment builds legitimacy.</li>
+<li>Internal governance: Ethics review boards, vendor due diligence, and impact assessments operationalize soft ethics.
+<b>Soft ethics are not a substitute for law, but they can reduce harm and build trust while regulation catches up.</b></li>
+</ul>
+<h2 id="technical-and-organizational-controls-that-should-have-been-used">Technical and organizational controls that should have been used</h2>
+<p><b>Below are practical controls mapped to the ethical failures in the case.</b></p>
+<ul>
+<li>Notice and consent mechanisms</li>
+<li>Express opt-in for biometric analytics; clear signage and an accessible consent flow.</li>
+<li>Data minimization</li>
+<li>Aggregate counts only; avoid storing raw images or biometric templates.</li>
+<li>Vendor governance</li>
+<li>Contracts requiring deletion, audit rights, and breach notification.</li>
+<li>Transparency tools</li>
+<li>Public documentation of models, retention periods, and data flows.</li>
+<li>Accountability measures</li>
+<li>Independent audits; privacy impact assessments (PIAs); ethics review board sign-off.</li>
+<li>Technical privacy</li>
+<li>On-device processing; differential privacy for aggregated outputs; encryption in transit and at rest.</li>
+</ul>
+<h2 id="bias-fairness-and-explainability--downstream-harms">Bias, fairness, and explainability — downstream harms</h2>
+<p>Even when the stated goal is innocuous (age and gender analytics), automated inferences can be biased and inaccurate across demographic groups. Misestimation of age or gender can lead to discriminatory targeting or exclusionary practices. Explainability matters because stakeholders must understand the limits and error rates of these inferences before they are used to make decisions.</p>
+<h2 id="the-cadillac-fairview-example-what-went-wrong">The Cadillac Fairview example: what went wrong</h2>
+<p>Key failures identified by privacy regulators include:</p>
+<ul>
+<li>Lack of meaningful consent — decals on doors were insufficient notice for biometric capture.</li>
+<li>Opaque vendor practices — biometric representations were stored by a third party in a centralized database, and the company claimed ignorance of that storage.</li>
+<li>Retention without purpose — five million biometric representations were retained “for no discernable reason.”</li>
+</ul>
+<p><b>These failures illustrate how weak governance and poor transparency can convert a seemingly benign analytics project into a major privacy breach.</b></p>
+<h4 id="a-short-checklist-for-ethical-deployment-of-biometric-analytics">A short checklist for ethical deployment of biometric analytics</h4>
+<ul>
+<li>Purpose clarity — Document why biometric analytics are necessary and what decisions they will inform.</li>
+<li>Consent design — Implement explicit, granular opt-ins; avoid implied consent.</li>
+<li>Vendor controls — Require contractual deletion, no secondary use, and audit rights.</li>
+<li>Minimize retention — Store only aggregated results; delete raw and derived biometric data promptly.</li>
+<li>Impact assessment — Conduct a PIA and algorithmic impact assessment before deployment.</li>
+<li>Public transparency — Publish a plain-language summary of the system, data flows, and safeguards.</li>
+<li>Independent oversight — Use external audits and ethics review boards for high-risk systems.</li>
+</ul>
+<h4 id="broader-governance-lessons">Broader governance lessons</h4>
+<ul>
+<li>Regulation and enforcement matter. Privacy commissioners intervened and the company removed the cameras; enforcement is a critical backstop.</li>
+<li>Organizational awareness is essential. Companies must know what their vendors do; “we didn’t know” is not an adequate defense.</li>
+<li>Public trust is fragile. Once trust is broken, reputational damage and regulatory scrutiny follow, and future legitimate uses of analytics become harder.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>The Cadillac Fairview case is a cautionary tale: even analytics framed as aggregate or “non-identifying” can produce sensitive biometric artifacts that demand the highest ethical scrutiny. Ethical AI frameworks, robust governance, and soft ethics practices together form a layered defense against misuse. For practitioners, the takeaway is clear: embed privacy by design, insist on meaningful consent, govern vendors tightly, and treat biometric outputs as permanently sensitive. Doing so protects individuals and preserves the social license organizations need to innovate responsibly. I believe this practice will immediately alleviate the fear of privacy concerns.</p>
+
           </article>
         </div>
       </div>
@@ -400,7 +457,18 @@ Emoji Support | Lethrell&#39;s Profile
               <div class="toc-content">
                 <nav id="TableOfContents">
   <ul>
-    <li><a href="#emoji-support">Emoji Support</a></li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#what-is-the-importance-of-this-case">What is the importance of this case?</a></li>
+    <li><a href="#ethical-framing-which-principles-apply">Ethical framing: Which principles apply?</a></li>
+    <li><a href="#soft-ethics-why-voluntary-norms-still-matter">Soft ethics: Why voluntary norms still matter</a></li>
+    <li><a href="#technical-and-organizational-controls-that-should-have-been-used">Technical and organizational controls that should have been used</a></li>
+    <li><a href="#bias-fairness-and-explainability--downstream-harms">Bias, fairness, and explainability — downstream harms</a></li>
+    <li><a href="#the-cadillac-fairview-example-what-went-wrong">The Cadillac Fairview example: what went wrong</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
               </div>
@@ -413,19 +481,19 @@ Emoji Support | Lethrell&#39;s Profile
             <ul class="tags-ul list-unstyled list-inline">
               
               
-              <li class="list-inline-item"><a href="/tags/emoji-support"
+              <li class="list-inline-item"><a href="/tags/governance-lessons"
                 target="_blank"
-              >Emoji support</a></li>
+              >Governance Lessons</a></li>
               
               
-              <li class="list-inline-item"><a href="/tags/sample"
+              <li class="list-inline-item"><a href="/tags/the-cadillac-fairview.-what-went-wrong"
                 target="_blank"
-              >Sample</a></li>
+              >The Cadillac Fairview. What Went Wrong?</a></li>
               
               
-              <li class="list-inline-item"><a href="/tags/example"
+              <li class="list-inline-item"><a href="/tags/ethical-framing"
                 target="_blank"
-              >example</a></li>
+              >Ethical Framing</a></li>
               
             </ul>
           </aside>
@@ -442,7 +510,7 @@ Emoji Support | Lethrell&#39;s Profile
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='https://twitter.com/share?text=Emoji%20Support&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2femoji-support%2f&hashtags=Emoji%20support%2cSample%2cexample'>
+                  <a target="_blank" href='https://twitter.com/share?text=Emoji%20Support&url=http%3a%2f%2flocalhost%3a1313%2fblogs%2femoji-support%2f&hashtags=Governance%20Lessons%2cThe%20Cadillac%20Fairview.%20What%20Went%20Wrong%3f%2cEthical%20Framing'>
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
@@ -545,7 +613,7 @@ Emoji Support | Lethrell&#39;s Profile
                         <h5 class="card-title bg-transparent" title="My Blog">My Blog</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p><p>This expansion explains why that contradiction matters in practice, details the ethical and operational risks, and gives concrete, prioritized steps leaders can take to restore trust and protect respondents. The goal is to move from a technically misleading promise to a defensible, transparent …</p></p>
+                        <p><p>This expansion explains why contradiction matters in practice, details the ethical and operational risks, and gives concrete, prioritized steps leaders can take to restore trust and protect respondents. The goal is to move from a technically misleading promise to a defensible, transparent practice …</p></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">

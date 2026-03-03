@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/ai-ethics/</loc>
+    <lastmod>2026-02-22T22:41:10+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/blogs/</loc>
     <lastmod>2026-02-22T22:41:10+05:30</lastmod>
     <xhtml:link
@@ -20,7 +23,10 @@
                 href="http://localhost:1313/blogs/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/example/</loc>
+    <loc>http://localhost:1313/tags/ethical-and-practical-consequences/</loc>
+    <lastmod>2026-02-22T22:41:10+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/is-annonymous-annonymous/</loc>
     <lastmod>2026-02-22T22:41:10+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -42,12 +48,6 @@
                 />
   </url><url>
     <loc>http://localhost:1313/blogs/ethics/</loc>
-    <lastmod>2026-02-22T22:41:10+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/placeholder-text/</loc>
-    <lastmod>2026-02-22T22:41:10+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/sample/</loc>
     <lastmod>2026-02-22T22:41:10+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -166,13 +166,13 @@
     <lastmod>2022-06-25T18:35:46+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/gallery/"
+                hreflang="fr"
+                href="http://localhost:1313/fr/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/fr/gallery/"
+                hreflang="es"
+                href="http://localhost:1313/es/gallery/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -211,6 +211,33 @@
   </url><url>
     <loc>http://localhost:1313/fr/blogs/markdown-syntax/</loc>
     <lastmod>2021-04-03T23:29:21+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/emoji-support/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/blogs/emoji-support/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://localhost:1313/fr/blogs/emoji-support/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/blogs/emoji-support/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/tags/emoji-support/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/example/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sample/</loc>
+    <lastmod>2021-04-03T22:53:58+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/es/blogs/emoji-support/</loc>
     <lastmod>2021-04-03T22:53:58+05:30</lastmod>
